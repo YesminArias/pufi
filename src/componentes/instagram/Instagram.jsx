@@ -11,6 +11,7 @@ export default function Instagram() {
 
   
   return (
+    <div className={classes.instagram__container}>
     <div className={classes.instagram}>
         <div>
      <p  className={classes.title}>INSTAGRAM </p>
@@ -30,6 +31,7 @@ export default function Instagram() {
      
      </div>
      
+    </div>
     </div>
   );
 }

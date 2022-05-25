@@ -83,3 +83,30 @@ li {
         color: rgba(0, 0, 0, 0.392);
     }
 }
+@media(max-width: 920px){
+    .container{
+        display:block;
+        justify-content: center;
+        margin:0;
+        padding: auto;
+
+    }
+    .container__block {
+        text-align: center;
+        margin-top:20px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.466);
+    }
+    .container__block li {
+        margin-right:50px;
+    }
+    .title{
+        font-size:5vh;
+        width: 50%;
+    }
+    .icons__logo{
+       padding-bottom: 50px ;
+    }
+    .iconosRedes{
+        margin-top:20px;
+    }
+    }

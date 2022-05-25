@@ -18,10 +18,10 @@
         }
     }
 }
+
 .input{
     padding:5px;
     margin:40px;
-    
     display:flex;
     justify-content: space-between;
     width: 30vw;
@@ -43,5 +43,16 @@ input{
 .submit{
     background-color:transparent;
     border: 0px;
+
+}
+@media(max-width: 920px){
+  .newsletter{
+    margin-top:15vh;
+  }  
+  .input{
+      width: 60vw;
+      
+  }
+  
 
 }

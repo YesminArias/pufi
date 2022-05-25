@@ -29,7 +29,7 @@ const Card = () => {
             </p>{" "}
           </div>
         </div>
-        <div className={classes.cardContainer__container}>
+        <div className={classes.cardContainer__container__img}>
           <div className={classes.hero}>
             <img
               className={classes.imgProducto}
