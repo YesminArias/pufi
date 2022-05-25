@@ -1,0 +1,53 @@
+html, body {
+	padding: 0;
+	margin: 0;
+  font-family: Nunito,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+$spancing-sm:8px;
+$spancing-md:16px;
+$spancing-lg:32px;
+$header-height:72px;
+$sm: 37.5em;
+$md: 48 em;
+$lg: 64 em;
+$xl: 75 em;
+
+@mixin breakpoints($point){
+  @if $point == md {
+    @media (min-width: $md){
+      @content;
+    }
+  }
+}
+
+
+.carousel .slider-wrapper{
+  height: 60%;
+}
+
+.carousel img{
+  display: grid;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+
+span .alertdanger {
+  color:red;
+  margin:5vw;
+}
+span .alertsuccess{
+  color:green;
+  margin:5vw;
+}

@@ -1,0 +1,85 @@
+@import '../../index.scss';
+
+.container {
+    
+    box-shadow: 0em -1em 17px 0px rgb(112, 121, 129);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    padding-top: 3rem;
+    margin:2vw;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    width: 96%;
+    background-color: white;
+   
+
+    
+
+    &__block {
+        border-right: 1px solid rgba(98, 94, 94, 0.682);
+        margin-left: 15px;
+        width: 100%;
+        text-align: left;
+
+        &__security {
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 10px;
+
+            &__redes {
+                width: 80vw;
+                margin-right: 15px;
+                margin-left: 15px;
+
+            }
+        }
+    }
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.icons {
+    font-size: 3rem;
+    padding: auto;
+    margin: 3px;
+
+    &__logo {
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+.title {
+    width: 13vw;
+    font-family: 'Mali', cursive;
+    font-size: 3vw;
+
+}
+
+.iconosRedes {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.text {
+    color: #000;
+
+    &__mensaje {
+        margin: 30px;
+        border-top: 1px solid rgba(85, 85, 85, 0.227);
+        color: rgba(0, 0, 0, 0.392);
+    }
+}

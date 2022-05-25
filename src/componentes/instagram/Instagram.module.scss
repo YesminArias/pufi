@@ -1,0 +1,17 @@
+.instagram{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    
+    &__img{
+        width:15%;
+    }
+}
+.title {
+    color:rgba(113, 110, 110, 0.807);
+    margin:20px;
+    &__numeral {
+        color:rgb(20, 19, 19);
+        margin:20px;
+    }
+}

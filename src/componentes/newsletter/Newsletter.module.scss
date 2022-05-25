@@ -1,0 +1,47 @@
+.newsletter{
+    background-color:white;
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    margin-top: 60px;
+    &__title {
+        color: rgba(82, 74, 74, 0.697);
+        margin:30px;
+        &__suscribite {
+            font-size:300%;
+            margin: 0;
+            font-family: Nunito,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+            &__msj{
+                font-family: Nunito,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+                margin:0;
+            }
+        }
+    }
+}
+.input{
+    padding:5px;
+    margin:40px;
+    
+    display:flex;
+    justify-content: space-between;
+    width: 30vw;
+    border: 1px solid #000;
+    cursor : pointer;
+}
+input{
+    background-color:transparent;
+    border: 0px;
+    width:25vw;
+    padding:10px;
+}
+.icon {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.submit{
+    background-color:transparent;
+    border: 0px;
+
+}
